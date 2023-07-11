@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">chemobuddy</string>
+    <string name="title_activity_about">about</string>
+    <string name="large_text">
+        "Chemo Buddy\n\n"
+
+        "This is a mini project completed as a part of Mobile Application Development Laboratory "
+        "by Students of CSE Tejas.R(1RN20CS167) and V.Tanmay(1RN20CS171).\n\n"
+
+        "Our Chemo buddy app provides a specific and customized health care service."
+        "Many people have disorders like Heamophilia, which does'nt really find use in a generic"
+        "healthcare application. This application seeks to find solutions for this purpose.\n\n"
+
+        "This app provides features such as monitoring patients by the doctors, calculation of "
+        "dosage of medicines, availibility of medicine in nearby hospitals..etc.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

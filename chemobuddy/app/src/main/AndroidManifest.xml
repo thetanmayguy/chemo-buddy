@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chemobuddy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.My_health">
+        <activity
+            android:name="com.example.chemobuddy.AboutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_about"
+            android:theme="@style/Theme.My_health.NoActionBar" />
+        <activity
+            android:name="com.example.chemobuddy.MainActivity0"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.chemobuddy.article"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.articles"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.medicine"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.medicines"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.test_1"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.myorders"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.labtest"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.booking"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.doctors_details"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.findmydoc"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.Home"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.Register"
+            android:exported="true" />
+        <activity
+            android:name="com.example.chemobuddy.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
